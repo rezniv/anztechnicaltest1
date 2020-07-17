@@ -8,11 +8,11 @@
 
 # Instructions
 
-# build the image
+* build the image
 docker build -t anztest1:1.0 . 
 
-# run the image with web endpoint running inside container
+* run the image with web endpoint running inside container
 docker run -p 8000:8000 anztest1:1.0
 
-# Use a browser on the host machine and browse to 127.0.0.1:8000/go
+* Use a browser on the host machine and browse to 127.0.0.1:8000/go
 
